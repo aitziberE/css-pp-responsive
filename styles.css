@@ -1,0 +1,45 @@
+*{
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+p{
+    color:white;
+}
+main{
+    background-color: black;
+    padding: 20px;
+}
+header{
+    background-color: lightskyblue;
+}
+section{
+    background-color: red;
+}
+article{
+    background-color: green;
+}
+aside{
+    background-color: purple;
+}
+footer{
+    background-color: gray;
+}
+
+/* tablet */
+@media only screen and (min-width: 600px){
+    article{
+        width:70%;
+    }
+    aside{
+        width:30%;
+    }
+}
+/* escritorio */
+@media only screen and (min-width: 768px){
+    article{
+        width:70%;
+    }
+    aside{
+        width:30%;
+    }
+}
